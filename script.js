@@ -54,9 +54,10 @@ const { isUtf8 } = require("buffer");
 //for promise with respect to fs
 let fs=require("fs/promises");
 const readThree=(file1,file2,file3)=>{
-  let a=fs.readFile(file1,"utf-8");
-  let b=fs.readFile(file2,"utf-8");
-  let c=fs.readFile(file3,"utf-8");
+  let a6=fs.readFile(file1,"utf-8");
+  let a4=fs.readFile(file2,"utf-8");
+  let a5=fs.readFile(file3,"utf-8");
+  let c1=await a6;
 }
 let c=fs.readFile("file.txt","utf-8");
 
