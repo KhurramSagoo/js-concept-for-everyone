@@ -20,9 +20,7 @@ function sockMerchant(n, ar) {
     return pairs;
   }
   
-  // Example usage
   const n = 9;
   const socks = [10, 20, 20, 10, 10, 30, 50, 10, 20];
   const matchingPairs = sockMerchant(n, socks);
-  console.log(matchingPairs);
   
