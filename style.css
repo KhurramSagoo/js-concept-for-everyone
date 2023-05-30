@@ -1,0 +1,10 @@
+body {
+  color: yellow;
+}
+body form h2 {
+  color: yellow;
+  text-transform: uppercase;
+}
+body form input {
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */
